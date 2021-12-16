@@ -12,6 +12,8 @@ gcc -v
 下载并安装以及配置 `PATH` 环境变量 <br>
 当完成安装时，您可以从 Windows 命令行上运行 gcc、g++、ar、ranlib、dlltool 和其他一些 GNU 工具
 
+所有内容来自于[菜鸟教程](https://www.runoob.com/cprogramming/c-tutorial.html)
+
 # 内容
 | 文件名 | 内容 |
 | ------ | ---- |
