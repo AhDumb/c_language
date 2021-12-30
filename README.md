@@ -29,3 +29,4 @@ gcc -v
 | [Enumerate](/Enumerate) | C 枚举    |
 | [Pointer](/Pointer)     | C 指针    |
 | [Func-Pointer](/Func-Pointer) | C 函数指针 |
+| [String](/String)       | C String |
