@@ -17,7 +17,7 @@ gcc -v
 # 内容
 | 文件名 | 内容 |
 | ------ | ---- |
-| [Structure](/Structure) | C 程序结构|
+| [Program Structure](/Program-Structure) | C 程序结构|
 | [DataType](/DataType)   | C 数据类型|
 | [Variable](/Variable)   | C 变量    |
 | [Constant](/Constant)   | C 常量    |
@@ -30,3 +30,4 @@ gcc -v
 | [Pointer](/Pointer)     | C 指针    |
 | [Func-Pointer](/Func-Pointer) | C 函数指针 |
 | [String](/String)       | C String |
+| [Structure](/Structure) | C 结构体 |

@@ -1,7 +1,7 @@
 /**
  * @author aaron
  * @version 1.0
- * @fileName main.c
+ * @fileName struct.c
  * @email wzj020109@163.com
  * @date 2022-01-02
  */
@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "books.h"
+
 
 int main(int argc, char *argv[]) {
 
@@ -29,18 +30,19 @@ int main(int argc, char *argv[]) {
     book2.book_id = 6495700;
 
     /* 输出 book1 信息 */
-    printf("Book 1 title : %s\n", book1.title);
-    printf("Book 1 author : %s\n", book1.author);
-    printf("Book 1 subject : %s\n", book1.subject);
-    printf("Book 1 book_id : %d\n", book1.book_id);
-
-    printf("=========================\n");
+    printBook( book1 );
 
     /* 输出 book2 信息 */
-    printf("Book 2 title : %s\n", book2.title);
-    printf("Book 2 author : %s\n", book2.author);
-    printf("Book 2 subject : %s\n", book2.subject);
-    printf("Book 2 book_id : %d\n", book2.book_id);
+    printBook( book2 );
 
     return 0;
+}
+
+void printBook( struct Books book ) {
+    printf("Book title : %s\n", book.title);
+    printf("Book author : %s\n", book.author);
+    printf("Book subject : %s\n", book.subject);
+    printf("Book book_id : %d\n", book.book_id);
+
+    printf("=========================\n");
 }
