@@ -31,3 +31,4 @@ gcc -v
 | [Func-Pointer](/Func-Pointer) | C 函数指针 |
 | [String](/String)       | C String |
 | [Structure](/Structure) | C 结构体 |
+| [Public Body](/Public-Body) | C 公共体 |
