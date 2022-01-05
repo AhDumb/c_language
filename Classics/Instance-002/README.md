@@ -1,3 +1,12 @@
+<!--
+  - File Name README.md
+  - Version 1.0
+  - Author aaron
+  - Email wzj020109@163.com
+  - Created Time 2022-01-05
+-->
+
+
 # C 练习实例2
 
 ***题目:*** 企业发放的奖金根据利润提成
