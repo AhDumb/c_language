@@ -44,3 +44,10 @@
 </details>
 
 <hr>
+
+<details>
+<summary>C 语言练习实例5</summary>
+<a href="/Classics/Instance-005">实例5</a> <br>
+<b>题目:</b> 输入三个整数x,y,z，请把这三个数由小到大输出; <br>
+<b>程序分析:</b> Null <br>
+</details>
