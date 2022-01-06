@@ -43,9 +43,9 @@ int main(int argc, char *argv[]) {
         finalBonus = bonus2 + ( i - TWENTY ) * 0.05;
     } else if ( i <= SIXTY ) { /* 小于等于 60W */
         finalBonus = bonus4 + ( i - FORTY ) * 0.03;
-    } else if ( i <= HUNDRED ) {
+    } else if ( i <= HUNDRED ) { /* 小于等于 100W */
         finalBonus = bonus6 + ( i - SIXTY ) * 0.015;
-    } else if ( i > HUNDRED ) {
+    } else if ( i > HUNDRED ) { /* 大于 100W */
         finalBonus = bonus10 + ( i - HUNDRED ) * 0.01;
     }
 

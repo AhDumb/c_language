@@ -59,3 +59,20 @@
 ..   I > 100W
     10W * 0.1 + 10W * 0.075 +  20W * 0.05 +  40W * 0.03 + 40W * 0.015 + ( I - 100W ) * 0.01
 ```
+
+## 代码
+```c
+if ( i <= TEN ) { /* 小于等于 10W */
+    finalBonus = i * 0.1;
+} else if ( i <= TWENTY ) { /* 小于等于 20W */
+    finalBonus = bonus1 + ( i - TEN ) * 0.075;
+} else if ( i <= FORTY ) { /* 小于等于 40W */
+    finalBonus = bonus2 + ( i - TWENTY ) * 0.05;
+} else if ( i <= SIXTY ) { /* 小于等于 60W */
+    finalBonus = bonus4 + ( i - FORTY ) * 0.03;
+} else if ( i <= HUNDRED ) { /* 小于等于 100W */
+    finalBonus = bonus6 + ( i - SIXTY ) * 0.015;
+} else if ( i > HUNDRED ) { /* 大于 100W */
+    finalBonus = bonus10 + ( i - HUNDRED ) * 0.01;
+}
+```

@@ -51,3 +51,12 @@
 <b>题目:</b> 输入三个整数x,y,z，请把这三个数由小到大输出; <br>
 <b>程序分析:</b> Null <br>
 </details>
+
+<hr>
+
+<details>
+<summary>C 语言练习实例6</summary>
+<a href="/Classics/Instance-006">实例6</a> <br>
+<b>题目:</b> 输出九九乘法表 <br>
+<b>程序分析:</b> 分行与列考虑，共 9 行 9 列，i 控制行，j 控制列; <br>
+</details>
