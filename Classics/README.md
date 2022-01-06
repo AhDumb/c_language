@@ -60,3 +60,21 @@
 <b>题目:</b> 输出九九乘法表 <br>
 <b>程序分析:</b> 分行与列考虑，共 9 行 9 列，i 控制行，j 控制列; <br>
 </details>
+
+<hr>
+
+<details>
+<summary>C 语言练习实例7</summary>
+<a href="/Classics/Instance-007">实例7</a> <br>
+<b>题目:</b> 输出100以内的所有素数 <br>
+<b>程序分析:</b> 利用循环得到100以内的所有数, 利用取摸运算判断是否能被整除 <br>
+</details>
+
+<hr>
+
+<details>
+<summary>C 语言练习实例8</summary>
+<a href="/Classics/Instance-008">实例8</a> <br>
+<b>题目:</b> 输出 100 - 999 里的所有水仙花数 <br>
+<b>程序分析:</b> 利用for循环控制100-999个数，每个数分解出个位，十位，百位; <br>
+</details>
