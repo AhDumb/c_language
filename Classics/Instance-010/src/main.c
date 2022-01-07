@@ -1,0 +1,33 @@
+/**
+ * @author aaron
+ * @version 1.0
+ * @fileName main.c
+ * @email wzj020109@163.com
+ * @date 2022-01-07
+ */
+
+
+#include <stdio.h>
+
+int main() {
+
+    char c;
+    int letters=0, spaces=0, digits=0, others=0;
+
+    printf("请输入一段文本: \n");
+    while ( (c = getchar()) != '\n' ) {
+        if ( ( c >= 'a' && c <= 'z' ) || ( c >= 'A' && c <= 'Z' ) ) {
+            letters++;
+        } else if ( c >= '0' && c <= '9' ) {
+            digits++;
+        } else if ( c == ' ' ) {
+            spaces++;
+        } else {
+            others++;
+        }
+    }
+
+    printf("字母=%d,数字=%d,空格=%d,其他=%d\n", letters, digits, spaces, others);
+    
+    return 0;
+}
