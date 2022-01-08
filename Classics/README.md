@@ -4,7 +4,7 @@
   - Author aaron
   - Email wzj020109@163.com
   - Created Time 2022-01-04
-      -->
+-->
 
 
 # C 语言经典实例
@@ -95,4 +95,13 @@
 <a href="/Classics/Instance-010">实例10</a> <br>
 <b>题目:</b> 输入一行字符，分别统计出其中英文字母、空格、数字和其它字符的个数; <br>
 <b>程序分析:</b> 利用while语句,条件为输入的字符不为'\n'; <br>
+</details>
+
+<hr>
+
+<details>
+<summary>C 语言练习实例11</summary>
+<a href="/Classics/Instance-011">实例11</a> <br>
+<b>题目:</b> 一球从100米高度自由落下, 每次落地后反跳回原高度的一半; 再落, 下求它在第10次落地时, 共经过多少米? 第10次反弹多高? <br>
+<b>程序分析:</b> Null <br>
 </details>
