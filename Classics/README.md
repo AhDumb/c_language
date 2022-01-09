@@ -102,8 +102,8 @@
 <details>
 <summary>C 语言练习实例11</summary>
 <a href="/Classics/Instance-011">实例11</a> <br>
-<b>题目:</b> 一球从100米高度自由落下, 每次落地后反跳回原高度的一半; 再落, 下求它在第10次落地时, 共经过多少米? 第10次反弹多高? <br>
-<b>程序分析:</b> Null <br>
+<b>题目:</b> 求s=a+aa+aaa+aaaa+aa...a的值，其中a是一个数字. <br>
+<b>程序分析:</b> 关键是计算出每一项的值; <br>
 </details>
 
 <hr>
@@ -111,6 +111,24 @@
 <details>
 <summary>C 语言练习实例12</summary>
 <a href="/Classics/Instance-012">实例12</a> <br>
+<b>题目:</b> 一球从100米高度自由落下, 每次落地后反跳回原高度的一半; 再落, 下求它在第10次落地时, 共经过多少米? 第10次反弹多高? <br>
+<b>程序分析:</b> Null <br>
+</details>
+
+<hr>
+
+<details>
+<summary>C 语言练习实例13</summary>
+<a href="/Classics/Instance-013">实例13</a> <br>
+<b>题目:</b> 猴子吃桃问题? <br>
+<b>程序分析:</b> Null <br>
+</details>
+
+<hr>
+
+<details>
+<summary>C 语言练习实例14</summary>
+<a href="/Classics/Instance-014">实例14</a> <br>
 <b>题目:</b> 猴子吃桃问题? <br>
 <b>程序分析:</b> Null <br>
 </details>
