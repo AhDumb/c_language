@@ -105,3 +105,12 @@
 <b>题目:</b> 一球从100米高度自由落下, 每次落地后反跳回原高度的一半; 再落, 下求它在第10次落地时, 共经过多少米? 第10次反弹多高? <br>
 <b>程序分析:</b> Null <br>
 </details>
+
+<hr>
+
+<details>
+<summary>C 语言练习实例12</summary>
+<a href="/Classics/Instance-012">实例12</a> <br>
+<b>题目:</b> 猴子吃桃问题? <br>
+<b>程序分析:</b> Null <br>
+</details>
